@@ -1,0 +1,52 @@
+:root {
+    /* background */
+    --primary-color: #FFFFFF;
+    /* section background */
+    --secondary-color: #8B9FCD;
+    /* border/header color */
+    --tertieary-color: #154FAF;
+    /* text color */
+    --quaternary-color: #ffff19;
+    /* extras */
+    --quniary-color: #68BBB6;
+    --senary-color: #c33030;
+} 
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: var(--primary-color);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: var(--secondary-color);
+}
+
+header ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+header a {
+    color: var(--quaternary-color);
+    text-decoration: none;
+}
+
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    background-attachment: fixed;
+    background-position: 80%;
+}
+
+

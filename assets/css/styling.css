@@ -190,3 +190,44 @@ section {
     color: var(--quaternary-color);
     text-decoration: none;
 }
+
+@media screen and (max-width: 768px) {
+    header {
+        flex-wrap: nowrap;
+    }
+
+    header ul li {
+        padding: 0 0 0 0;
+    }
+
+    br {
+        display: none;
+    }
+
+    section {
+        width: 100%;
+    }
+
+    .section-content {
+        width: 100%;
+        margin: 0 0 15px 0;
+        border-top-color: var(--senary-color);    
+        border-radius: 0px 0px 15px 15px;
+    }
+
+    .section-title {
+        width: 100%;
+        border: 2px solid var(--tertieary-color);
+        border-bottom-color: var(--senary-color);
+        text-align: center;
+        border-radius: 15px 15px 0px 0px;
+    }
+
+    .work-grid {
+        text-align: center;
+    }
+
+    .work-grid-container {
+        justify-content: center;
+    }
+}
